@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /affiliates.html?aff=*
+Sitemap: https://jsnmtech.com/sitemap.xml
