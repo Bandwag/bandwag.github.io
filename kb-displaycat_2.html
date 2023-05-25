@@ -63,10 +63,24 @@
                                     <h1>搬瓦工如何搭建ssr高速节点？</h1>
                                 </div>
                             </div>
-                            <p>搬瓦工提供的SSR节点速度取决于多个因素，例如服务器的配置、网络质量、用户访问服务器的地理位置等等。因此，具体速度会有所不同，并且会有一些波动。</p>
-                            <p>通常来说，如果你选择搬瓦工位于所在国家或者附近国家的服务器，那么网络延迟和速度都应该可以满足日常使用的需求。如果你的网络环境比较差，可能需要尝试连接其他服务器，或者调整连接方式来优化网络速度。</p>
-                            <p>当然，在使用SSR的过程中，还需要注意维护好自己的网络环境，避免同时连接过多设备、下载大型文件等行为，从而影响SSR的使用效果。</p>
-
+                            <p>1、购买服务器：首先，您需要购买一台具有良好带宽和运行速度的服务器。推荐使用云服务器，例如AWS EC2或DigitalOcean等。</p>
+                            <p>2、安装系统：根据您的服务器选择安装相应的操作系统，如CentOS或Ubuntu等。</p>
+                            <p>3、安装必要软件：运行以下命令以安装必要的软件：</p>
+                            <p><pre><code> 
+        yum update -y
+        yum install git -y
+        yum groupinstall "Development Tools" -y
+        yum install epel-release -y 
+        yum install python-setuptools m2crypto cymysql git -y </code></pre></p>
+                            <p>4、下载SSR：从github上下载SSR源代码。</p>
+                            <p><pre><code> git clone -b manyuser https://github.com/shadowsocksr-backup/shadowsocksr.git </code></pre></p>
+                            <p>5、配置SSR：进入shadowsocksr目录，并按照你的需求编辑config.json文件。修改加密方式、端口、密码以及协议等参数。</p>
+                            <p>6、启动SSR：运行以下命令启动SSR。</p>
+                            <p><pre><code> 
+            cd shadowsocksr/
+            python server.py </code></pre></p>
+                            <p>7、优化SSR性能：可进行一些优化设置，如开启BBR拥塞控制算法等，以提高SSR性能和速度。</p>
+                            <p>完成以上步骤后，您就可以在本地设备上配置SSR客户端，并连接到您的SSR服务器了。</p>
                         </div>
                     </div>
                 </div>

@@ -7,6 +7,18 @@
         <priority>1.0</priority>
     </url>
     <url>
+        <loc>https://jsnmtech.com/kb-displaycat_3.html</loc>
+        <lastmod>2023-05-25T10:19:25+08:00</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://jsnmtech.com/kb-displaycat_4.html</loc>
+        <lastmod>2023-05-25T10:29:14+08:00</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
         <loc>https://jsnmtech.com/cn2-gia-us-vps-hosting.html</loc>
         <lastmod>2023-04-30T14:29:34+08:00</lastmod>
         <changefreq>weekly</changefreq>
